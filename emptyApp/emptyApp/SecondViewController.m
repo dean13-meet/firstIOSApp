@@ -48,7 +48,8 @@
 */
 
 - (IBAction)goBack:(id)sender {
-    [self performSegue:@"F12"];
+   //[self performSegue:@"F12"];
+    // [self dismissViewControllerAnimated:YES completion:nil];
     
 }
 
@@ -58,11 +59,13 @@
 -(void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
     if([[segue identifier] isEqualToString:@"F12"]){
         UIViewController *v = [segue destinationViewController];
-        [self dismissViewControllerAnimated:NO completion:nil];
-        v = self;
+   //    [self dismissViewControllerAnimated:NO completion:nil];
+       v = self;
         
     }
 }
+
+
 
 - (IBAction)selectionChanged:(id)sender {
     

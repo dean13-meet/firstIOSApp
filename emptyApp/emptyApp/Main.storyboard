@@ -98,6 +98,7 @@
                                 </state>
                                 <connections>
                                     <action selector="goBack:" destination="wOR-f6-5RL" eventType="touchUpInside" id="9Rg-PQ-Urp"/>
+                                    <segue destination="yyh-Mn-vK5" kind="unwind" unwindAction="unwindFromViewController:" id="Mb0-Ao-huS"/>
                                 </connections>
                             </button>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bordered" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="bKK-1k-7QF">
@@ -121,10 +122,10 @@
                         <outlet property="backButton" destination="OUt-OY-0wo" id="3B9-Wu-NH4"/>
                         <outlet property="labelOfSegmented" destination="G0Z-bg-d03" id="zjE-Xg-iM1"/>
                         <outlet property="segmentedControl" destination="bKK-1k-7QF" id="7Pe-Dj-uvB"/>
-                        <segue destination="l0e-vt-WRt" kind="modal" identifier="F12" modalTransitionStyle="flipHorizontal" id="Y4g-fJ-A7C"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BaV-E4-k1Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="yyh-Mn-vK5" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="701" y="8"/>
         </scene>
