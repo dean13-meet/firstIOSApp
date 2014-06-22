@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		3D2D994C1951334D00E04DD0 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D994B1951334D00E04DD0 /* SecondViewController.m */; };
+		3D2D994F19566FF800E04DD0 /* BrowserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D2D994E19566FF800E04DD0 /* BrowserViewController.m */; };
+		3D58DDB919567959007FB441 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D58DDB819567959007FB441 /* Images.xcassets */; };
+		3D58DDBC19567983007FB441 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D58DDBA19567983007FB441 /* arrow.png */; };
+		3D58DDBD19567983007FB441 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D58DDBB19567983007FB441 /* background.png */; };
 		3DC780C9194CFD0A0029627F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC780C8194CFD0A0029627F /* Foundation.framework */; };
 		3DC780CB194CFD0A0029627F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC780CA194CFD0A0029627F /* CoreGraphics.framework */; };
 		3DC780CD194CFD0A0029627F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC780CC194CFD0A0029627F /* UIKit.framework */; };
 		3DC780D3194CFD0A0029627F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DC780D1194CFD0A0029627F /* InfoPlist.strings */; };
 		3DC780D5194CFD0A0029627F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC780D4194CFD0A0029627F /* main.m */; };
 		3DC780D9194CFD0A0029627F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DC780D8194CFD0A0029627F /* AppDelegate.m */; };
-		3DC780DB194CFD0A0029627F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DC780DA194CFD0A0029627F /* Images.xcassets */; };
 		3DC780E2194CFD0A0029627F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC780E1194CFD0A0029627F /* XCTest.framework */; };
 		3DC780E3194CFD0A0029627F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC780C8194CFD0A0029627F /* Foundation.framework */; };
 		3DC780E4194CFD0A0029627F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DC780CC194CFD0A0029627F /* UIKit.framework */; };
@@ -37,6 +40,11 @@
 /* Begin PBXFileReference section */
 		3D2D994A1951334D00E04DD0 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		3D2D994B1951334D00E04DD0 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		3D2D994D19566FF800E04DD0 /* BrowserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BrowserViewController.h; path = ../BrowserViewController.h; sourceTree = "<group>"; };
+		3D2D994E19566FF800E04DD0 /* BrowserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BrowserViewController.m; path = ../BrowserViewController.m; sourceTree = "<group>"; };
+		3D58DDB819567959007FB441 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3D58DDBA19567983007FB441 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
+		3D58DDBB19567983007FB441 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		3DC780C5194CFD0A0029627F /* emptyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = emptyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC780C8194CFD0A0029627F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3DC780CA194CFD0A0029627F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,7 +55,6 @@
 		3DC780D6194CFD0A0029627F /* emptyApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "emptyApp-Prefix.pch"; sourceTree = "<group>"; };
 		3DC780D7194CFD0A0029627F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3DC780D8194CFD0A0029627F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3DC780DA194CFD0A0029627F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		3DC780E0194CFD0A0029627F /* emptyAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = emptyAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3DC780E1194CFD0A0029627F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		3DC780E9194CFD0A0029627F /* emptyAppTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "emptyAppTests-Info.plist"; sourceTree = "<group>"; };
@@ -82,6 +89,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D2D99501956775A00E04DD0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				3D58DDBA19567983007FB441 /* arrow.png */,
+				3D58DDBB19567983007FB441 /* background.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		3DC780BC194CFD0A0029627F = {
 			isa = PBXGroup;
 			children = (
@@ -115,13 +131,17 @@
 		3DC780CE194CFD0A0029627F /* emptyApp */ = {
 			isa = PBXGroup;
 			children = (
+				3D58DDB819567959007FB441 /* Images.xcassets */,
 				3DC780D7194CFD0A0029627F /* AppDelegate.h */,
 				3DC780D8194CFD0A0029627F /* AppDelegate.m */,
+				3D2D994D19566FF800E04DD0 /* BrowserViewController.h */,
+				3D2D994E19566FF800E04DD0 /* BrowserViewController.m */,
+				3DC780FC194D05C90029627F /* getTextViewController.h */,
+				3DC780FD194D05C90029627F /* getTextViewController.m */,
 				3DC780F7194CFF930029627F /* Main.storyboard */,
-				3DC780DA194CFD0A0029627F /* Images.xcassets */,
-				3DC780CF194CFD0A0029627F /* Supporting Files */,
 				3D2D994A1951334D00E04DD0 /* SecondViewController.h */,
 				3D2D994B1951334D00E04DD0 /* SecondViewController.m */,
+				3DC780CF194CFD0A0029627F /* Supporting Files */,
 			);
 			path = emptyApp;
 			sourceTree = "<group>";
@@ -129,12 +149,11 @@
 		3DC780CF194CFD0A0029627F /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				3DC780FC194D05C90029627F /* getTextViewController.h */,
-				3DC780FD194D05C90029627F /* getTextViewController.m */,
+				3D2D99501956775A00E04DD0 /* Images */,
 				3DC780D0194CFD0A0029627F /* emptyApp-Info.plist */,
+				3DC780D6194CFD0A0029627F /* emptyApp-Prefix.pch */,
 				3DC780D1194CFD0A0029627F /* InfoPlist.strings */,
 				3DC780D4194CFD0A0029627F /* main.m */,
-				3DC780D6194CFD0A0029627F /* emptyApp-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -232,9 +251,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D58DDB919567959007FB441 /* Images.xcassets in Resources */,
+				3D58DDBD19567983007FB441 /* background.png in Resources */,
 				3DC780F8194CFF930029627F /* Main.storyboard in Resources */,
 				3DC780D3194CFD0A0029627F /* InfoPlist.strings in Resources */,
-				3DC780DB194CFD0A0029627F /* Images.xcassets in Resources */,
+				3D58DDBC19567983007FB441 /* arrow.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +276,7 @@
 			files = (
 				3D2D994C1951334D00E04DD0 /* SecondViewController.m in Sources */,
 				3DC780FE194D05C90029627F /* getTextViewController.m in Sources */,
+				3D2D994F19566FF800E04DD0 /* BrowserViewController.m in Sources */,
 				3DC780D9194CFD0A0029627F /* AppDelegate.m in Sources */,
 				3DC780D5194CFD0A0029627F /* main.m in Sources */,
 			);

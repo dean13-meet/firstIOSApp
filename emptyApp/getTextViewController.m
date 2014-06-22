@@ -53,7 +53,7 @@
     if([sender isEqual:input]&&!closedByReturn)return;
     NSString *theTestInputted = input.text;
 
-        lbl.text = [NSString stringWithFormat:@"%@ %@ %@", @"Hi,", theTestInputted, @"have a good day"];
+        lbl.text = [NSString stringWithFormat:@"%@%@%@", @"Hi ", theTestInputted, @", have a good day"];
     if([input isEditing]){
         printf("EDITING");
         [input resignFirstResponder];}

@@ -14,9 +14,14 @@
     
     IBOutlet UISegmentedControl *segmentedControl;
     IBOutlet UILabel *labelOfSegmented;
+    IBOutlet UISlider *slider;
+    IBOutlet UIButton *goToBrowserButton;
 }
 - (IBAction)goBack:(id)sender;
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender;
 - (IBAction)selectionChanged:(id)sender;
+- (IBAction)sliderChanged:(id)sender;
+- (IBAction)goToBrowser:(id)sender;
+
 
 @end

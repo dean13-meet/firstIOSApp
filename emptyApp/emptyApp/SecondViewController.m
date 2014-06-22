@@ -27,6 +27,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+     labelOfSegmented.font=[labelOfSegmented.font fontWithSize:slider.value];
+    [goToBrowserButton setBackgroundImage:[UIImage imageNamed:@"arrow.png"] forState:UIControlStateNormal];
     
 }
 
@@ -34,6 +36,10 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)unwindFromViewController:(UIStoryboardSegue *)segue
+{
+    //empty implementation
 }
 
 /*
@@ -81,5 +87,13 @@
             labelOfSegmented.text = @"IDK";
             break;
     }
+}
+
+- (IBAction)sliderChanged:(id)sender {
+    labelOfSegmented.font=[labelOfSegmented.font fontWithSize:slider.value];
+}
+
+- (IBAction)goToBrowser:(id)sender {
+    [self performSegue:@"F32"];
 }
 @end
